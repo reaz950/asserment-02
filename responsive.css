@@ -2,4 +2,58 @@
     #banner{
         display: block;
     }
+    .banner-text h1{
+        font-size: 30px;
+    }
+    .banner-text p{
+        font-size: 16px;
+        padding-right: 400px;
+    }
+    .banner-img img{
+        margin: 15px 100px;
+    }
+    #mid-nav-transfer{
+        display: inline-block;
+    }
+    .buttn-group {
+        height: 70px;
+        background-color: #fff;
+        margin-left: 120px;
+        margin-bottom: 85px;
+    }
+    .buttn-group button{
+        display: block;
+        border: 1px solid rgba(0, 0, 0, 0.432);
+    }
+    .transfer{
+        display: grid;
+        grid-template-columns: 400px;
+        text-align: center;
+    }
+    .transfer-item {
+        border: 1px solid #00000056;
+        padding: 10px 10px;
+        margin: 10px 10px;
+    }
+    .transfer-item button{
+        display: block;
+        margin: 10px 35px ;
+    }
+    .transfer-item img{
+        width: 80%;
+    }
+    .footer-nav{
+        display: block;
+        margin-right: 500px;
+        padding-bottom: 50px;
+    }
+    .footer-heading {
+        margin-right: 540px;
+        padding-bottom: 10px;
+    }
+    footer nav li {
+        margin: 20px 20px;
+
+
+    }
 }
