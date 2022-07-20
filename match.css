@@ -52,10 +52,6 @@ body{
     padding: 40px 40px;
     background-color: #000;
 }
-.botton-anchore{
-    text-decoration: none;
-}
-
 .buttn-group-blogs{
     background-color: red;
     color: #fff;
@@ -107,4 +103,32 @@ footer nav li{
     margin-left: 30px;
     margin-top: 60px;
     margin-bottom: 100px;
+}
+
+/* Match html file style hore */
+.buttn-group-upcoimg{
+    background-color: red;
+    color: #fff;
+}
+
+.buttn-group-blogs{
+    background-color: #fff;
+    color: #000;
+}
+
+.match-schedule{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-left: 20px;
+}
+.schedule-item {
+    border: 1px solid rgba(0, 0, 0, 0.445);
+    height: 165px;
+    padding-top: 10px;
+    text-align: center;
+    margin: 10px 10px;
+}
+.schedule-item span {
+    padding: 5px 5px;
+    margin: 0px 8px;
 }
