@@ -48,10 +48,38 @@ body{
 }
 
 .buttn-group{
+    height: 200px;
+    padding: 40px 40px;
     background-color: #000;
 }
+.buttn-group-blogs{
+    background-color: red;
+    color: #fff;
+    border: none;
+}
+
 .buttn-group button{
     display: block;
+    padding-top: 20px;
+    padding: 10px 20px;
+    width: 200px;
+    margin-top: 20px;
+    border-radius:10px ;
+}
+
+.transfer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-left: 20px;
+}
+
+.transfer-item img{
+    width: 80%;
+}
+
+.transfer-icons{
+    display: flex;
+    justify-content: space-evenly;
 }
 
 footer{
@@ -72,7 +100,7 @@ footer nav{
 footer nav li{
     padding-right: 30px;
     margin-right: 30px;
-    margin-left: 60px;
+    margin-left: 30px;
     margin-top: 60px;
     margin-bottom: 100px;
 }
